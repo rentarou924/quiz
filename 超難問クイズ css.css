@@ -1,0 +1,23 @@
+body {
+    background-color: #e0e0e0;
+    font-weight: bold;
+}
+button {
+    padding: 5px 13x; /* パディングを小さくする */
+    font-size: 15px; /* フォントサイズを小さくする */
+    color: white;
+    background: linear-gradient(to right, #ff7e5f, #feb47b); /* グラデーション */
+    border: none;
+    border-radius: 25px; /* 角を丸くする */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* 影 */
+    cursor: pointer;
+    transition: transform 0.3s, box-shadow 0.3s; /* アニメーション */
+}
+button:hover {
+    transform: scale(1.05); /* ホバー時に少し大きくする */
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3); /* ホバー時の影 */
+}
+button:active {
+    transform: scale(0.95); /* クリック時に少し小さくする */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2); /* クリック時の影 */
+}
